@@ -1,0 +1,10 @@
+
+burnin: '9.0'
+windows_fio: '2.13'
+linux_fio: '3.5'
+iometer: '1.1.0'
+sleeper: '2.3(1010)'
+vdbench: '504'
+storscore:
+chaos: '0.05.03'
+iol: '10.0.c'

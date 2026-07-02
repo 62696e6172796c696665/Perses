@@ -1,0 +1,9 @@
+
+#FLASHTYPE: TOSHIBA_BICS4_ODP
+#IMAGE: firmware.bin
+#DRIVER: standard
+
+# SSH remote control
+target_ip: 172.29.xxx.xxx
+USERNAME: root
+PASSWORD: nvme

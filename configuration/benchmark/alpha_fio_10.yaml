@@ -1,0 +1,110 @@
+- background: ''
+  env: env_1
+  fio: {blocksize: 128k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '1',
+    ioengine: libaio, name: 'seq_precondition_write:bs128k,QD1', numjobs: '1', runtime: '',
+    rw: write, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: seq_precondition_write:bs128k,QD1
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 128k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '64',
+    ioengine: libaio, name: 'seq_read:bs128,DQ64', numjobs: '1', runtime: '1800',
+    rw: read, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: seq_read:bs128,DQ64
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 128k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '64',
+    ioengine: libaio, name: 'seq_write:bs128,DQ64', numjobs: '1', runtime: '1800',
+    rw: write, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: seq_write:bs128,DQ64
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '1',
+    ioengine: libaio, name: 'ran_precondition_write:bs4k,QD1', numjobs: '1', runtime: '',
+    rw: randwrite, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_precondition_write:bs4k,QD1
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '32',
+    ioengine: libaio, name: 'ran_read:bs4,DQ32,nu4', numjobs: '4', runtime: '1800',
+    rw: randread, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_read:bs4,DQ32,nu4
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '32',
+    ioengine: libaio, name: 'ran_write:bs4,DQ32,nu4', numjobs: '4', runtime: '1800',
+    rw: randwrite, rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_write:bs4,DQ32,nu4
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '1',
+    ioengine: libaio, name: 'ran_read:bs4,DQ1', numjobs: '1', runtime: '1800', rw: randread,
+    rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_read:bs4,DQ1
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '1',
+    ioengine: libaio, name: 'ran_write:bs4,DQ1', numjobs: '1', runtime: '1800', rw: randwrite,
+    rwmixread: '0', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_write:bs4,DQ1
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '16',
+    ioengine: libaio, name: 'ran_read_70/30:bs4,DQ16,nu4', numjobs: '4', runtime: '1800',
+    rw: randrw, rwmixread: '70', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_read_70/30:bs4,DQ16,nu4
+  tester: Zhao.He
+  type: fio
+- background: ''
+  env: env_1
+  fio: {blocksize: 4k, continue_on_error: all, filename: /dev/nvme0n1, iodepth: '16',
+    ioengine: libaio, name: 'ran_write_70/30:bs4,DQ16,nu4', numjobs: '4', runtime: '1800',
+    rw: randrw, rwmixread: '30', size: 100%}
+  group_key: 20200310151828_KERD0MGhAp
+  group_name: alpha_shell
+  project_name: ALPHA
+  test_name: ran_write_70/30:bs4,DQ16,nu4
+  tester: Zhao.He
+  type: fio

@@ -1,0 +1,68 @@
+---
+reg: 0x47034
+value: 0xa2
+flag: [7]
+---
+reg: 0x47030
+value: 0x8218
+flag: -1
+---
+reg: 0x47024
+value: 0x3fe01001
+flag: -1
+---
+reg: 0x47038
+value: 0x00000F01
+flag: -1
+---
+reg: 0x47034
+value: 0x005D2022
+flag: -1
+---
+reg: 0x47158
+value: 0x05DC0000
+flag: -1
+---
+reg: 0x4715C
+value: 0x000005D2
+flag: -1
+---
+reg: 0x47048
+value: 0x138000
+flag: -1
+---
+reg: 0x40a88
+value: 0
+flag: -1
+---
+reg: 0x4d010
+value: 0x10170
+flag: -1
+---
+reg: 0x4d280
+value: 0x321
+flag: -1
+---
+reg: 0x471a4
+value: 0x000186a0
+flag: -1
+---
+reg: 0x40900
+value: 0x50
+flag: -1
+---
+reg: 0x4108
+value: 0xa
+flag: [0, 15]
+---
+reg: 0x9020
+value: 0x201
+flag: -1
+---
+reg: 0x9040
+value: 0x202
+flag: -1
+---
+reg: 0x4702c
+value: 0x1
+flag: -1
