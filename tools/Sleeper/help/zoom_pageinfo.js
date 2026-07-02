@@ -1,0 +1,18 @@
+pageinfo = [[0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null],
+    [0, 0, 0, 0, null]];
+pagedata = [["hid_commandline.htm", "Command line options", "Command line options Sleeper supports a number of command line options. If no command line options are specified, Sleeper starts in full user inte...", ""],
+    ["hid_config.htm", "Configuration Options", "Configuration Options Sleep durations The length of time in seconds to carry out the requested sleep action for each individual sleep states. Defa...", ""],
+    ["hid_contacts.htm", "Contacting PassMark Software", "Contacting PassMark&#8482; Software On the Web You can contact PassMark on the web at http://www.passmark.com E-Mail For technical support questions, su...", ""],
+    ["hid_copyright.htm", "Copyright and License", "Copyright &#38; License information Copyright &#38; End User license Sleeper is free for personal use. For a commercial licence please contact PassMark&#8482; f...", ""],
+    ["hid_overview.htm", "Introduction and Overview", "Sleeper by PassMark&#8482; Software - Overview Sleeper is a small utility program developed by PassMark Software to help automate the PC hardware testin...", ""],
+    ["hid_sleepstates.htm", "Sleep State Types", "Types of Sleep States Power management is an integral feature of most new computers. With laptops and wireless computing on the rise it is especia...", ""],
+    ["hid_systemreq.htm", "System requirements", "System Requirements Pentium or faster Windows 98, Me, Window 2000, Windows XP, Windows Vista 16Meg RAM 0.2MB of free hard disk space to install th...", ""],
+    ["hid_ui.htm", "The User Interface", "The User Interface Suspend Type Specifies the type of sleep action, which will be carried out when the user hits the ‘Sleep Now’ button. S1, S2, S...", ""],
+    ["warnings_and_errors.htm", "Warnings and Errors", "Warnings and Errors Warnings Sleep time too long If the sleep is longer than expected duration, by more than 15 seconds for sleep states S1, S2 an...", ""]];

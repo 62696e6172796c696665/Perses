@@ -1,0 +1,261 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+    <title>Command line options</title>
+    <meta content="Help &amp; Manual" name="generator"/>
+    <meta content="Arguments,Command line,Configuration mode,Interactive mode" name="keywords"/>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <meta content="text/css" http-equiv="Content-Style-Type"/>
+    <link href="default.css" rel="stylesheet" type="text/css"/>
+    <script src="helpman_topicinit.js" type="text/javascript"></script>
+    <!-- Redirect browser to frame page if page is not in the content frame. -->
+    <script type="text/javascript">
+        <!--
+        if (location.search.lastIndexOf("toc=0") <= 0) {
+            if (parent.frames.length == 0) {
+                parent.location.href = "index.html?hid_commandline.htm";
+            } else {
+                parent.quicksync('a6');
+            }
+        }
+        //-->
+    </script>
+    <script src="highlight.js" type="text/javascript"></script>
+</head>
+<body onload="highlight();" style="margin: 0px 0px 0px 0px; background: #FFFFFF;">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table bgcolor="#649CCC" border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr valign="middle">
+        <td align="left">
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-size: 16pt; font-weight: bold; color: #ffffff;">Command line options</span>
+            </p>
+
+        </td>
+        <td align="right">
+     <span style="font-size: 9pt">
+     <a href="hid_overview.htm"><img alt="Top" border=0 src="nav_up_blue.gif"></a>&nbsp;
+     <a href="hid_config.htm"><img alt="Previous" border=0 src="nav_left_blue.gif"></a>&nbsp;
+     <a href="hid_systemreq.htm"><img alt="Next" border=0 src="nav_right_blue.gif"></a>
+     </span>
+        </td>
+    </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr valign="top">
+        <td align="left">
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Sleeper supports a number of command line options. If no command line options are specified,</span><br>
+                <span style="color: #010100;">Sleeper starts in full user interface mode. If invalid command line options are specified, Sleeper will display an error dialog and exit.</span>
+            </p>
+            <div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 7px 0px 7px 0px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;">
+                    <tr style="vertical-align:baseline" valign="baseline">
+                        <td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #010100;">1.</span>
+                        </td>
+                        <td><span style="color: #010100;">If no command line options are specified, Sleeper will attempt to load the last used configuration (sleeperCfg.dat). &nbsp;If sleeperCfg.dat is not present, default values will be used.</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 7px 0px 7px 0px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;">
+                    <tr style="vertical-align:baseline" valign="baseline">
+                        <td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #010100;">2.</span>
+                        </td>
+                        <td><span style="color: #010100;">If a configuration file is specified, the configuration file will be used.</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 7px 0px 7px 0px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;">
+                    <tr style="vertical-align:baseline" valign="baseline">
+                        <td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #010100;">3.</span>
+                        </td>
+                        <td><span style="color: #010100;">If a configuration file is specified along with other command line options, the configuration file will be used. &nbsp;Any command line option that appears after the configuration file (i.e. --config option) will override the configuration file's settings. &nbsp;For example, if the sleep duration for S1-S4 is 60 in "myconfig.dat", and we run Sleeper with: Sleeper.exe --config=myconfig.dat -R 90. &nbsp;Then Sleeper will attempt to sleep for 90 seconds instead of 60.</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 7px 0px 7px 0px;">
+                <table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;">
+                    <tr style="vertical-align:baseline" valign="baseline">
+                        <td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #010100;">4.</span>
+                        </td>
+                        <td><span style="color: #010100;">If command line options are specified without a configuration file (i.e. without --config option), default values will be used and the command line options will override its default values. &nbsp;If any of the command line option is invalid, Sleeper will use its default values. &nbsp;However, if a valid log file is specified (i.e. valid -L, -La or -Lo option) along with other invalid options, logs will be written to the specified log file.</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-weight: bold; color: #010100; text-decoration: underline;">Sleeper's default values:</span><br>
+                <span style="font-weight: bold; color: #010100; text-decoration: underline;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Suspend Types For Cycle:</span><br>
+                <span style="color: #010100;">S1: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;On</span><br>
+                <span style="color: #010100;">S2: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">S3: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">S4: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Sleep durations:</span><br>
+                <span style="color: #010100;">S1 Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 secs</span><br>
+                <span style="color: #010100;">S2 Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 secs</span><br>
+                <span style="color: #010100;">S3 Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 secs</span><br>
+                <span style="color: #010100;">S4 Duration: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30 secs</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">State fallback (for sleep state that is not supported):</span><br>
+                <span style="color: #010100;">Skip sleep</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Cycle Settings:</span><br>
+                <span style="color: #010100;">Perform a fixed number of cycles.</span><br>
+                <span style="color: #010100;">Number of Cycles: &nbsp; &nbsp; &nbsp; &nbsp;1</span><br>
+                <span style="color: #010100;">Cycle Interval Duration: &nbsp; &nbsp; &nbsp; &nbsp;60 secs</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Error handling:</span><br>
+                <span style="color: #010100;">Restart automatically: &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">Stop and prompt: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Sleeper options:</span><br>
+                <span style="color: #010100;">Sleep forever: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">Delay before 1st sleep: &nbsp; &nbsp; &nbsp; &nbsp;0 secs</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">Log file settings:</span><br>
+                <span style="color: #010100;">Append to log file</span><br>
+                <span style="color: #010100;">Log file: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;sleeper.log (in application's directory)</span><br>
+                <span style="color: #010100;">Log level: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Normal</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100; text-decoration: underline;">External actions:</span><br>
+                <span style="color: #010100;">Call external app between: &nbsp; &nbsp; &nbsp; &nbsp;Off</span><br>
+                <span style="color: #010100;">Call external app after last: &nbsp; &nbsp; &nbsp; &nbsp;Off</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">--config=config_file_name.dat</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Load configuration file:</span><br>
+                <span style="color: #010100;">Sleeper will load the configuration stored in config_file_name.dat before starting test. &nbsp;If config_file_name.dat is not a valid configuration file, it will not be loaded and an error dialog will be displayed.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-A</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Attempt to use all sleep states (S1, S2, S3, S4)</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-B</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="color: #010100;">Attempt to use all supported sleep states</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-C</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Continue running after a forced power cycle</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-D [seconds]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Cycle mode interval:</span><br>
+                <span style="color: #010100;">Specifies the amount of time in seconds that Sleeper waits after waking from one state until transition to the next.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-E</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="color: #010100;">Program will exit when finished running</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-F</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Force sleep state transition:</span><br>
+                <span style="color: #010100;">Some applications may attempt to prevent the system entering the specified sleep state. If the system isn’t responding to Sleepers requests to enter a certain state, it may be necessary to include this option to force the sleep state transition.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-f[x]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">State fallback (in the event of an unsupported sleep state):</span><br>
+                <span style="color: #010100;">If a state that is not supported is configured to be run, the following are the options:</span><br>
+                <span style="color: #010100;">-f1: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If no support, attempt next supported lighter sleep</span><br>
+                <span style="color: #010100;">-f2: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If no support, attempt next supported deeper sleep</span><br>
+                <span style="color: #010100;">-f3: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If no support, force sleep at requested level</span><br>
+                <span style="color: #010100;">-f4: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;If no support, skip requested level </span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="font-style: italic; font-weight: bold; color: #010100;">-H</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Hardware Wake: </span><br>
+                <span style="color: #010100;">Defines preferred method of Wake-up as hardware rather than using a timer, in this mode Sleeper will wait for the user to manually wake the system through an action.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-L [filename]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Logfile Name: </span><br>
+                <span style="color: #010100;">Name and path of the log file to write to during test execution. &nbsp;Sleeper will create the log path if it does not exist.</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100;">Supported paths are:</span><br>
+                <span style="color: #010100;">a) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Absolute local path, i.e. beginning with an alphabet followed by a colon or beginning with an alpha-numeric and not followed by a colon.</span><br>
+                <span style="color: #010100;">(Example: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A:\a\b\c\d\test.log, b:\1\2\3\4\5\here.log, my\path\test.log, 1\2\3\test.log, etc)</span><br>
+                <span style="color: #010100;">b) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Network path, i.e. beginning with double backslashes followed by the shared folder's name</span><br>
+                <span style="color: #010100;">(Example: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\\userXP\sharedFolder\example.log, etc)</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Unsupported paths are:</span><br>
+                <span style="color: #010100;">a) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Relative paths (i.e. paths that starts with dots or double dots, or paths that contains dots or double dots between back slashes)</span><br>
+                <span style="color: #010100;">(Example: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.\my\path\test.log, ..\my\path\test.log, C:\a\b\..\c\.\my.log)</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-N [number]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Number of Cycles: </span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">The number of times to suspend and resume, the default is forever.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-O [x]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Query supported sleep states:</span><br>
+                <span style="color: #010100;">If –O is specified, Sleeper returns a bit-masked value indicating which states are supported.</span><br>
+                <span style="color: #010100;">Only the 4 least significant bits are used.</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100;">Most Significant Bits &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Least Significant Bits</span><br>
+                <span style="color: #010100;">0 0 0 …………………………………………... 0 0 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;LSB4 LSB3 LSB2 LSB1</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100;">If LSB[x] is true, Sleep State S[x] is supported.</span><br>
+                <span style="color: #010100;">Example: &nbsp;If 5 (i.e. 0101) is returned, it means sleep state S1 and S3 are supported.</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100;">If –O[x] is specified, a true(1) or false(0) value will be returned if sleep state S[x] is supported or not supported.</span><br>
+                <span style="color: #010100;">&nbsp;</span><br>
+                <span style="color: #010100;">Sleeper will not execute the sleep states.</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-P [seconds]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">The length of time in seconds to countdown before entering the first requested sleep state.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-R [seconds]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Sleep Duration:</span><br>
+                <span style="color: #010100;">Indicates the length of time in seconds to sleep for. If this option is specified, a valid sleep state must also be present.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-r[x] &nbsp;[seconds]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Sleep duration for each individual sleep states:</span><br>
+                <span style="color: #010100;">Indicates the length of time in seconds to sleep for Sleep State S[x]. If this option is specified, a valid sleep state must also be present.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-S[xxxx]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Sleep State:</span><br>
+                <span style="color: #010100;">Tells Sleeper to test sleep states 1, 2, 3, or 4. Each x should be a 1 if you want to test a sleep state or a 0 if you don’t want to test it, eg to test sleep states 1 and 4 use –S1001. If this option is specified, then the –D option must also be present (see below).</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">-T [seconds]</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Cycle Time Growth: </span><br>
+                <span style="color: #010100;">Every time a cycle time is completed, this amount (in seconds) will be added to the suspend duration.</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">Example – Execute a sleep from the command line</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">sleeper -S1000 -R 60 -N 1</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span
+                    style="color: #010100;">Enter sleep state S1 for 60 seconds.</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="font-style: italic; font-weight: bold; color: #010100;">Example – Cycle through supported states</span>
+            </p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">sleeper -B -R 60 -D 30 -N 1</span></p>
+            <p style="margin: 7px 0px 7px 0px;"><span style="color: #010100;">Will result in the following behaviour on a system supporting S1, S3 and S4…</span><br>
+                <span style="color: #010100;">S1 for 60 seconds,</span><br>
+                <span style="color: #010100;">Wait for a 30 second interval</span><br>
+                <span style="color: #010100;">S3 for 60 seconds,</span><br>
+                <span style="color: #010100;">Wait for a 30 second interval</span><br>
+                <span style="color: #010100;">S4 for 60 seconds</span></p>
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
