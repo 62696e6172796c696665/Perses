@@ -1,0 +1,2512 @@
+
+Aerospike act version 3.0 - device IO test
+Copyright 2011 by Aerospike. All rights reserved.
+
+ACT CONFIGURATION
+device-names: /dev/shasta_disk0
+num-devices: 1
+queue-per-device: no
+num-queues: 2
+threads-per-queue: 8
+test-duration-sec: 36000
+report-interval-sec: 1
+microsecond-histograms: no
+read-reqs-per-sec: 96000
+write-reqs-per-sec: 48000
+record-bytes: 4096
+large-block-op-kbytes: 128
+use-valloc: no
+scheduler-mode: noop
+
+bytes per stored record: 4096
+large block ops per sec: 3000.00
+
+Using xorshift+ random generator.
+
+/dev/shasta_disk0 size = 154467827712 bytes, 1178496 large blocks, 37711872 4096-byte blocks, reads are 4096 bytes
+
+After 1 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (2280 total)
+ (00: 0000002280)
+LARGE BLOCK WRITES (1434 total)
+ (00: 0000001434)
+RAW READS          (96003 total)
+ (00: 0000096003)
+/dev/shasta_disk0  (96003 total)
+ (00: 0000096003)
+READS              (96003 total)
+ (00: 0000096002) (01: 0000000001)
+
+After 2 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (4632 total)
+ (00: 0000004632)
+LARGE BLOCK WRITES (2984 total)
+ (00: 0000002984)
+RAW READS          (192003 total)
+ (00: 0000192003)
+/dev/shasta_disk0  (192003 total)
+ (00: 0000192003)
+READS              (192003 total)
+ (00: 0000192002) (01: 0000000001)
+
+After 3 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (7002 total)
+ (00: 0000007002)
+LARGE BLOCK WRITES (4537 total)
+ (00: 0000004537)
+RAW READS          (288003 total)
+ (00: 0000288003)
+/dev/shasta_disk0  (288003 total)
+ (00: 0000288003)
+READS              (288003 total)
+ (00: 0000288002) (01: 0000000001)
+
+After 4 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (9385 total)
+ (00: 0000009385)
+LARGE BLOCK WRITES (5567 total)
+ (00: 0000005567)
+RAW READS          (384003 total)
+ (00: 0000384003)
+/dev/shasta_disk0  (384003 total)
+ (00: 0000384003)
+READS              (384003 total)
+ (00: 0000384002) (01: 0000000001)
+
+After 5 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (11829 total)
+ (00: 0000011829)
+LARGE BLOCK WRITES (5567 total)
+ (00: 0000005567)
+RAW READS          (480003 total)
+ (00: 0000480003)
+/dev/shasta_disk0  (480003 total)
+ (00: 0000480003)
+READS              (480003 total)
+ (00: 0000480002) (01: 0000000001)
+
+After 6 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (14264 total)
+ (00: 0000014264)
+LARGE BLOCK WRITES (5567 total)
+ (00: 0000005567)
+RAW READS          (576001 total)
+ (00: 0000576001)
+/dev/shasta_disk0  (576001 total)
+ (00: 0000576001)
+READS              (576001 total)
+ (00: 0000576000) (01: 0000000001)
+
+After 7 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (16663 total)
+ (00: 0000016663)
+LARGE BLOCK WRITES (6247 total)
+ (00: 0000006246) (12: 0000000001)
+RAW READS          (672003 total)
+ (00: 0000672003)
+/dev/shasta_disk0  (672003 total)
+ (00: 0000672003)
+READS              (672003 total)
+ (00: 0000672002) (01: 0000000001)
+
+After 8 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (18998 total)
+ (00: 0000018998)
+LARGE BLOCK WRITES (7795 total)
+ (00: 0000007794) (12: 0000000001)
+RAW READS          (768003 total)
+ (00: 0000768003)
+/dev/shasta_disk0  (768003 total)
+ (00: 0000768003)
+READS              (768003 total)
+ (00: 0000768002) (01: 0000000001)
+
+After 9 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (21332 total)
+ (00: 0000021332)
+LARGE BLOCK WRITES (9365 total)
+ (00: 0000009364) (12: 0000000001)
+RAW READS          (864000 total)
+ (00: 0000864000)
+/dev/shasta_disk0  (864000 total)
+ (00: 0000864000)
+READS              (864000 total)
+ (00: 0000863999) (01: 0000000001)
+
+After 10 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (23589 total)
+ (00: 0000023589)
+LARGE BLOCK WRITES (10914 total)
+ (00: 0000010913) (12: 0000000001)
+RAW READS          (960002 total)
+ (00: 0000960002)
+/dev/shasta_disk0  (960003 total)
+ (00: 0000960003)
+READS              (960004 total)
+ (00: 0000960003) (01: 0000000001)
+
+After 11 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (25867 total)
+ (00: 0000025867)
+LARGE BLOCK WRITES (12466 total)
+ (00: 0000012465) (12: 0000000001)
+RAW READS          (1056001 total)
+ (00: 0001056001)
+/dev/shasta_disk0  (1056001 total)
+ (00: 0001056001)
+READS              (1056001 total)
+ (00: 0001056000) (01: 0000000001)
+
+After 12 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (28132 total)
+ (00: 0000028132)
+LARGE BLOCK WRITES (14020 total)
+ (00: 0000014019) (12: 0000000001)
+RAW READS          (1152003 total)
+ (00: 0001152003)
+/dev/shasta_disk0  (1152003 total)
+ (00: 0001152003)
+READS              (1152003 total)
+ (00: 0001152002) (01: 0000000001)
+
+After 13 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (30407 total)
+ (00: 0000030407)
+LARGE BLOCK WRITES (15570 total)
+ (00: 0000015569) (12: 0000000001)
+RAW READS          (1248000 total)
+ (00: 0001248000)
+/dev/shasta_disk0  (1248000 total)
+ (00: 0001248000)
+READS              (1248000 total)
+ (00: 0001247999) (01: 0000000001)
+
+After 14 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (32682 total)
+ (00: 0000032682)
+LARGE BLOCK WRITES (17120 total)
+ (00: 0000017119) (12: 0000000001)
+RAW READS          (1344003 total)
+ (00: 0001344003)
+/dev/shasta_disk0  (1344003 total)
+ (00: 0001344003)
+READS              (1344003 total)
+ (00: 0001344002) (01: 0000000001)
+
+After 15 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (34963 total)
+ (00: 0000034963)
+LARGE BLOCK WRITES (18674 total)
+ (00: 0000018673) (12: 0000000001)
+RAW READS          (1440001 total)
+ (00: 0001440001)
+/dev/shasta_disk0  (1440002 total)
+ (00: 0001440002)
+READS              (1440002 total)
+ (00: 0001440001) (01: 0000000001)
+
+After 16 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (37244 total)
+ (00: 0000037244)
+LARGE BLOCK WRITES (20225 total)
+ (00: 0000020224) (12: 0000000001)
+RAW READS          (1536003 total)
+ (00: 0001536003)
+/dev/shasta_disk0  (1536003 total)
+ (00: 0001536003)
+READS              (1536003 total)
+ (00: 0001536002) (01: 0000000001)
+
+After 17 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (39520 total)
+ (00: 0000039520)
+LARGE BLOCK WRITES (21777 total)
+ (00: 0000021776) (12: 0000000001)
+RAW READS          (1632003 total)
+ (00: 0001632003)
+/dev/shasta_disk0  (1632003 total)
+ (00: 0001632003)
+READS              (1632003 total)
+ (00: 0001632002) (01: 0000000001)
+
+After 18 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (41799 total)
+ (00: 0000041799)
+LARGE BLOCK WRITES (23326 total)
+ (00: 0000023325) (12: 0000000001)
+RAW READS          (1728004 total)
+ (00: 0001728004)
+/dev/shasta_disk0  (1728004 total)
+ (00: 0001728004)
+READS              (1728004 total)
+ (00: 0001728003) (01: 0000000001)
+
+After 19 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (44091 total)
+ (00: 0000044091)
+LARGE BLOCK WRITES (24879 total)
+ (00: 0000024878) (12: 0000000001)
+RAW READS          (1824001 total)
+ (00: 0001824001)
+/dev/shasta_disk0  (1824001 total)
+ (00: 0001824001)
+READS              (1824001 total)
+ (00: 0001824000) (01: 0000000001)
+
+After 20 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (46385 total)
+ (00: 0000046385)
+LARGE BLOCK WRITES (26429 total)
+ (00: 0000026428) (12: 0000000001)
+RAW READS          (1920000 total)
+ (00: 0001920000)
+/dev/shasta_disk0  (1920000 total)
+ (00: 0001920000)
+READS              (1920001 total)
+ (00: 0001920000) (01: 0000000001)
+
+After 21 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (48670 total)
+ (00: 0000048670)
+LARGE BLOCK WRITES (27981 total)
+ (00: 0000027980) (12: 0000000001)
+RAW READS          (2016000 total)
+ (00: 0002016000)
+/dev/shasta_disk0  (2016000 total)
+ (00: 0002016000)
+READS              (2016000 total)
+ (00: 0002015999) (01: 0000000001)
+
+After 22 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (50960 total)
+ (00: 0000050960)
+LARGE BLOCK WRITES (29531 total)
+ (00: 0000029530) (12: 0000000001)
+RAW READS          (2111997 total)
+ (00: 0002111997)
+/dev/shasta_disk0  (2111997 total)
+ (00: 0002111997)
+READS              (2111997 total)
+ (00: 0002111996) (01: 0000000001)
+
+After 23 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (53239 total)
+ (00: 0000053239)
+LARGE BLOCK WRITES (31081 total)
+ (00: 0000031080) (12: 0000000001)
+RAW READS          (2208004 total)
+ (00: 0002208004)
+/dev/shasta_disk0  (2208004 total)
+ (00: 0002208004)
+READS              (2208004 total)
+ (00: 0002208003) (01: 0000000001)
+
+After 24 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (55537 total)
+ (00: 0000055537)
+LARGE BLOCK WRITES (32634 total)
+ (00: 0000032633) (12: 0000000001)
+RAW READS          (2304005 total)
+ (00: 0002304005)
+/dev/shasta_disk0  (2304005 total)
+ (00: 0002304005)
+READS              (2304005 total)
+ (00: 0002304004) (01: 0000000001)
+
+After 25 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (57834 total)
+ (00: 0000057834)
+LARGE BLOCK WRITES (34186 total)
+ (00: 0000034185) (12: 0000000001)
+RAW READS          (2400001 total)
+ (00: 0002400001)
+/dev/shasta_disk0  (2400001 total)
+ (00: 0002400001)
+READS              (2400001 total)
+ (00: 0002400000) (01: 0000000001)
+
+After 26 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (60121 total)
+ (00: 0000060121)
+LARGE BLOCK WRITES (35726 total)
+ (00: 0000035725) (12: 0000000001)
+RAW READS          (2496004 total)
+ (00: 0002496004)
+/dev/shasta_disk0  (2496004 total)
+ (00: 0002496004)
+READS              (2496004 total)
+ (00: 0002496003) (01: 0000000001)
+
+After 27 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (62416 total)
+ (00: 0000062416)
+LARGE BLOCK WRITES (37253 total)
+ (00: 0000037252) (12: 0000000001)
+RAW READS          (2592003 total)
+ (00: 0002592003)
+/dev/shasta_disk0  (2592003 total)
+ (00: 0002592003)
+READS              (2592003 total)
+ (00: 0002592002) (01: 0000000001)
+
+After 28 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (64705 total)
+ (00: 0000064705)
+LARGE BLOCK WRITES (38781 total)
+ (00: 0000038780) (12: 0000000001)
+RAW READS          (2688003 total)
+ (00: 0002688003)
+/dev/shasta_disk0  (2688003 total)
+ (00: 0002688003)
+READS              (2688003 total)
+ (00: 0002688002) (01: 0000000001)
+
+After 29 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (67006 total)
+ (00: 0000067006)
+LARGE BLOCK WRITES (40311 total)
+ (00: 0000040310) (12: 0000000001)
+RAW READS          (2784001 total)
+ (00: 0002784001)
+/dev/shasta_disk0  (2784001 total)
+ (00: 0002784001)
+READS              (2784001 total)
+ (00: 0002784000) (01: 0000000001)
+
+After 30 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (69304 total)
+ (00: 0000069304)
+LARGE BLOCK WRITES (41841 total)
+ (00: 0000041840) (12: 0000000001)
+RAW READS          (2880003 total)
+ (00: 0002880003)
+/dev/shasta_disk0  (2880003 total)
+ (00: 0002880003)
+READS              (2880003 total)
+ (00: 0002880002) (01: 0000000001)
+
+After 31 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (71618 total)
+ (00: 0000071618)
+LARGE BLOCK WRITES (43392 total)
+ (00: 0000043391) (12: 0000000001)
+RAW READS          (2976002 total)
+ (00: 0002976002)
+/dev/shasta_disk0  (2976002 total)
+ (00: 0002976002)
+READS              (2976002 total)
+ (00: 0002976001) (01: 0000000001)
+
+After 32 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (73922 total)
+ (00: 0000073922)
+LARGE BLOCK WRITES (44940 total)
+ (00: 0000044939) (12: 0000000001)
+RAW READS          (3072001 total)
+ (00: 0003072001)
+/dev/shasta_disk0  (3072001 total)
+ (00: 0003072001)
+READS              (3072001 total)
+ (00: 0003072000) (01: 0000000001)
+
+After 33 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (76223 total)
+ (00: 0000076223)
+LARGE BLOCK WRITES (46491 total)
+ (00: 0000046490) (12: 0000000001)
+RAW READS          (3168000 total)
+ (00: 0003168000)
+/dev/shasta_disk0  (3168000 total)
+ (00: 0003168000)
+READS              (3168000 total)
+ (00: 0003167999) (01: 0000000001)
+
+After 34 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (78525 total)
+ (00: 0000078525)
+LARGE BLOCK WRITES (48032 total)
+ (00: 0000048031) (12: 0000000001)
+RAW READS          (3264000 total)
+ (00: 0003264000)
+/dev/shasta_disk0  (3264000 total)
+ (00: 0003264000)
+READS              (3264000 total)
+ (00: 0003263999) (01: 0000000001)
+
+After 35 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (80832 total)
+ (00: 0000080832)
+LARGE BLOCK WRITES (49562 total)
+ (00: 0000049561) (12: 0000000001)
+RAW READS          (3360002 total)
+ (00: 0003360002)
+/dev/shasta_disk0  (3360002 total)
+ (00: 0003360002)
+READS              (3360002 total)
+ (00: 0003360001) (01: 0000000001)
+
+After 36 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (83134 total)
+ (00: 0000083134)
+LARGE BLOCK WRITES (51095 total)
+ (00: 0000051094) (12: 0000000001)
+RAW READS          (3456003 total)
+ (00: 0003456003)
+/dev/shasta_disk0  (3456003 total)
+ (00: 0003456003)
+READS              (3456004 total)
+ (00: 0003456003) (01: 0000000001)
+
+After 37 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (85448 total)
+ (00: 0000085448)
+LARGE BLOCK WRITES (52645 total)
+ (00: 0000052644) (12: 0000000001)
+RAW READS          (3552001 total)
+ (00: 0003552001)
+/dev/shasta_disk0  (3552001 total)
+ (00: 0003552001)
+READS              (3552001 total)
+ (00: 0003552000) (01: 0000000001)
+
+After 38 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (87757 total)
+ (00: 0000087757)
+LARGE BLOCK WRITES (54190 total)
+ (00: 0000054189) (12: 0000000001)
+RAW READS          (3648003 total)
+ (00: 0003648003)
+/dev/shasta_disk0  (3648003 total)
+ (00: 0003648003)
+READS              (3648003 total)
+ (00: 0003648002) (01: 0000000001)
+
+After 39 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (90075 total)
+ (00: 0000090075)
+LARGE BLOCK WRITES (55735 total)
+ (00: 0000055734) (12: 0000000001)
+RAW READS          (3744003 total)
+ (00: 0003744003)
+/dev/shasta_disk0  (3744003 total)
+ (00: 0003744003)
+READS              (3744003 total)
+ (00: 0003744002) (01: 0000000001)
+
+After 40 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (92411 total)
+ (00: 0000092411)
+LARGE BLOCK WRITES (57284 total)
+ (00: 0000057283) (12: 0000000001)
+RAW READS          (3840001 total)
+ (00: 0003840001)
+/dev/shasta_disk0  (3840002 total)
+ (00: 0003840002)
+READS              (3840002 total)
+ (00: 0003840001) (01: 0000000001)
+
+After 41 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (94733 total)
+ (00: 0000094733)
+LARGE BLOCK WRITES (58833 total)
+ (00: 0000058832) (12: 0000000001)
+RAW READS          (3936001 total)
+ (00: 0003936001)
+/dev/shasta_disk0  (3936001 total)
+ (00: 0003936001)
+READS              (3936002 total)
+ (00: 0003936001) (01: 0000000001)
+
+After 42 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (97046 total)
+ (00: 0000097046)
+LARGE BLOCK WRITES (60357 total)
+ (00: 0000060356) (12: 0000000001)
+RAW READS          (4032004 total)
+ (00: 0004032004)
+/dev/shasta_disk0  (4032004 total)
+ (00: 0004032004)
+READS              (4032004 total)
+ (00: 0004032003) (01: 0000000001)
+
+After 43 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (99372 total)
+ (00: 0000099372)
+LARGE BLOCK WRITES (61883 total)
+ (00: 0000061882) (12: 0000000001)
+RAW READS          (4128003 total)
+ (00: 0004128003)
+/dev/shasta_disk0  (4128003 total)
+ (00: 0004128003)
+READS              (4128004 total)
+ (00: 0004128003) (01: 0000000001)
+
+After 44 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (101696 total)
+ (00: 0000101696)
+LARGE BLOCK WRITES (63409 total)
+ (00: 0000063408) (12: 0000000001)
+RAW READS          (4224003 total)
+ (00: 0004224003)
+/dev/shasta_disk0  (4224003 total)
+ (00: 0004224003)
+READS              (4224003 total)
+ (00: 0004224002) (01: 0000000001)
+
+After 45 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (104017 total)
+ (00: 0000104017)
+LARGE BLOCK WRITES (64936 total)
+ (00: 0000064935) (12: 0000000001)
+RAW READS          (4320004 total)
+ (00: 0004320004)
+/dev/shasta_disk0  (4320004 total)
+ (00: 0004320004)
+READS              (4320004 total)
+ (00: 0004320003) (01: 0000000001)
+
+After 46 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (106350 total)
+ (00: 0000106350)
+LARGE BLOCK WRITES (66463 total)
+ (00: 0000066462) (12: 0000000001)
+RAW READS          (4416002 total)
+ (00: 0004416002)
+/dev/shasta_disk0  (4416002 total)
+ (00: 0004416002)
+READS              (4416002 total)
+ (00: 0004416001) (01: 0000000001)
+
+After 47 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (108679 total)
+ (00: 0000108679)
+LARGE BLOCK WRITES (67990 total)
+ (00: 0000067989) (12: 0000000001)
+RAW READS          (4512002 total)
+ (00: 0004512002)
+/dev/shasta_disk0  (4512002 total)
+ (00: 0004512002)
+READS              (4512002 total)
+ (00: 0004512001) (01: 0000000001)
+
+After 48 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (111019 total)
+ (00: 0000111019)
+LARGE BLOCK WRITES (69516 total)
+ (00: 0000069515) (12: 0000000001)
+RAW READS          (4608003 total)
+ (00: 0004608003)
+/dev/shasta_disk0  (4608003 total)
+ (00: 0004608003)
+READS              (4608003 total)
+ (00: 0004608002) (01: 0000000001)
+
+After 49 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (113366 total)
+ (00: 0000113366)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (4704002 total)
+ (00: 0004704002)
+/dev/shasta_disk0  (4704002 total)
+ (00: 0004704002)
+READS              (4704002 total)
+ (00: 0004704001) (01: 0000000001)
+
+After 50 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (115764 total)
+ (00: 0000115764)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (4800003 total)
+ (00: 0004800003)
+/dev/shasta_disk0  (4800003 total)
+ (00: 0004800003)
+READS              (4800003 total)
+ (00: 0004800002) (01: 0000000001)
+
+After 51 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (118178 total)
+ (00: 0000118178)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (4895999 total)
+ (00: 0004895999)
+/dev/shasta_disk0  (4895999 total)
+ (00: 0004895999)
+READS              (4895999 total)
+ (00: 0004895998) (01: 0000000001)
+
+After 52 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (120578 total)
+ (00: 0000120578)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (4992000 total)
+ (00: 0004992000)
+/dev/shasta_disk0  (4992000 total)
+ (00: 0004992000)
+READS              (4992000 total)
+ (00: 0004991999) (01: 0000000001)
+
+After 53 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (122993 total)
+ (00: 0000122993)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5088003 total)
+ (00: 0005088003)
+/dev/shasta_disk0  (5088003 total)
+ (00: 0005088003)
+READS              (5088003 total)
+ (00: 0005088002) (01: 0000000001)
+
+After 54 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (125422 total)
+ (00: 0000125422)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5183999 total)
+ (00: 0005183999)
+/dev/shasta_disk0  (5183999 total)
+ (00: 0005183999)
+READS              (5184000 total)
+ (00: 0005183999) (01: 0000000001)
+
+After 55 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (127838 total)
+ (00: 0000127838)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5280000 total)
+ (00: 0005280000)
+/dev/shasta_disk0  (5280000 total)
+ (00: 0005280000)
+READS              (5280000 total)
+ (00: 0005279999) (01: 0000000001)
+
+After 56 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (130270 total)
+ (00: 0000130270)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5376000 total)
+ (00: 0005376000)
+/dev/shasta_disk0  (5376000 total)
+ (00: 0005376000)
+READS              (5376000 total)
+ (00: 0005375999) (01: 0000000001)
+
+After 57 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (132689 total)
+ (00: 0000132689)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5472003 total)
+ (00: 0005472003)
+/dev/shasta_disk0  (5472003 total)
+ (00: 0005472003)
+READS              (5472003 total)
+ (00: 0005472002) (01: 0000000001)
+
+After 58 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (135106 total)
+ (00: 0000135106)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5567996 total)
+ (00: 0005567996)
+/dev/shasta_disk0  (5567996 total)
+ (00: 0005567996)
+READS              (5567996 total)
+ (00: 0005567995) (01: 0000000001)
+
+After 59 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (137528 total)
+ (00: 0000137528)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5664002 total)
+ (00: 0005664002)
+/dev/shasta_disk0  (5664002 total)
+ (00: 0005664002)
+READS              (5664003 total)
+ (00: 0005664002) (01: 0000000001)
+
+After 60 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (139945 total)
+ (00: 0000139945)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5760005 total)
+ (00: 0005760005)
+/dev/shasta_disk0  (5760005 total)
+ (00: 0005760005)
+READS              (5760005 total)
+ (00: 0005760004) (01: 0000000001)
+
+After 61 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (142367 total)
+ (00: 0000142367)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5856004 total)
+ (00: 0005856004)
+/dev/shasta_disk0  (5856004 total)
+ (00: 0005856004)
+READS              (5856004 total)
+ (00: 0005856003) (01: 0000000001)
+
+After 62 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (144781 total)
+ (00: 0000144781)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (5952002 total)
+ (00: 0005952002)
+/dev/shasta_disk0  (5952002 total)
+ (00: 0005952002)
+READS              (5952002 total)
+ (00: 0005952001) (01: 0000000001)
+
+After 63 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (147185 total)
+ (00: 0000147185)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6048003 total)
+ (00: 0006048003)
+/dev/shasta_disk0  (6048003 total)
+ (00: 0006048003)
+READS              (6048003 total)
+ (00: 0006048002) (01: 0000000001)
+
+After 64 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (149600 total)
+ (00: 0000149600)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6144005 total)
+ (00: 0006144005)
+/dev/shasta_disk0  (6144005 total)
+ (00: 0006144005)
+READS              (6144005 total)
+ (00: 0006144004) (01: 0000000001)
+
+After 65 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (152027 total)
+ (00: 0000152027)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6240000 total)
+ (00: 0006240000)
+/dev/shasta_disk0  (6240001 total)
+ (00: 0006240001)
+READS              (6240001 total)
+ (00: 0006240000) (01: 0000000001)
+
+After 66 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (154447 total)
+ (00: 0000154447)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6336002 total)
+ (00: 0006336002)
+/dev/shasta_disk0  (6336003 total)
+ (00: 0006336003)
+READS              (6336003 total)
+ (00: 0006336002) (01: 0000000001)
+
+After 67 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (156866 total)
+ (00: 0000156866)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6432001 total)
+ (00: 0006432001)
+/dev/shasta_disk0  (6432001 total)
+ (00: 0006432001)
+READS              (6432001 total)
+ (00: 0006432000) (01: 0000000001)
+
+After 68 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (159256 total)
+ (00: 0000159256)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6528001 total)
+ (00: 0006528001)
+/dev/shasta_disk0  (6528001 total)
+ (00: 0006528001)
+READS              (6528001 total)
+ (00: 0006528000) (01: 0000000001)
+
+After 69 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (161664 total)
+ (00: 0000161664)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6624004 total)
+ (00: 0006624004)
+/dev/shasta_disk0  (6624004 total)
+ (00: 0006624004)
+READS              (6624004 total)
+ (00: 0006624003) (01: 0000000001)
+
+After 70 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (164078 total)
+ (00: 0000164078)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6719999 total)
+ (00: 0006719999)
+/dev/shasta_disk0  (6719999 total)
+ (00: 0006719999)
+READS              (6719999 total)
+ (00: 0006719998) (01: 0000000001)
+
+After 71 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (166503 total)
+ (00: 0000166503)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6816001 total)
+ (00: 0006816001)
+/dev/shasta_disk0  (6816002 total)
+ (00: 0006816002)
+READS              (6816002 total)
+ (00: 0006816001) (01: 0000000001)
+
+After 72 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (168922 total)
+ (00: 0000168922)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (6912002 total)
+ (00: 0006912002)
+/dev/shasta_disk0  (6912003 total)
+ (00: 0006912003)
+READS              (6912003 total)
+ (00: 0006912002) (01: 0000000001)
+
+After 73 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (171335 total)
+ (00: 0000171335)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7008003 total)
+ (00: 0007008003)
+/dev/shasta_disk0  (7008003 total)
+ (00: 0007008003)
+READS              (7008003 total)
+ (00: 0007008002) (01: 0000000001)
+
+After 74 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (173742 total)
+ (00: 0000173742)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7104001 total)
+ (00: 0007104001)
+/dev/shasta_disk0  (7104001 total)
+ (00: 0007104001)
+READS              (7104001 total)
+ (00: 0007104000) (01: 0000000001)
+
+After 75 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (176169 total)
+ (00: 0000176169)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7200001 total)
+ (00: 0007200000) (01: 0000000001)
+/dev/shasta_disk0  (7200001 total)
+ (00: 0007200000) (01: 0000000001)
+READS              (7200002 total)
+ (00: 0007200000) (01: 0000000002)
+
+After 76 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (178598 total)
+ (00: 0000178598)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7296004 total)
+ (00: 0007296003) (01: 0000000001)
+/dev/shasta_disk0  (7296004 total)
+ (00: 0007296003) (01: 0000000001)
+READS              (7296004 total)
+ (00: 0007296002) (01: 0000000002)
+
+After 77 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (181017 total)
+ (00: 0000181017)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7392000 total)
+ (00: 0007391999) (01: 0000000001)
+/dev/shasta_disk0  (7392000 total)
+ (00: 0007391999) (01: 0000000001)
+READS              (7392001 total)
+ (00: 0007391999) (01: 0000000002)
+
+After 78 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (183428 total)
+ (00: 0000183428)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7488004 total)
+ (00: 0007488003) (01: 0000000001)
+/dev/shasta_disk0  (7488004 total)
+ (00: 0007488003) (01: 0000000001)
+READS              (7488005 total)
+ (00: 0007488003) (01: 0000000002)
+
+After 79 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (185858 total)
+ (00: 0000185858)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7584003 total)
+ (00: 0007584002) (01: 0000000001)
+/dev/shasta_disk0  (7584003 total)
+ (00: 0007584002) (01: 0000000001)
+READS              (7584004 total)
+ (00: 0007584002) (01: 0000000002)
+
+After 80 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (188278 total)
+ (00: 0000188278)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7679999 total)
+ (00: 0007679998) (01: 0000000001)
+/dev/shasta_disk0  (7679999 total)
+ (00: 0007679998) (01: 0000000001)
+READS              (7680000 total)
+ (00: 0007679998) (01: 0000000002)
+
+After 81 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (190701 total)
+ (00: 0000190701)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7776001 total)
+ (00: 0007776000) (01: 0000000001)
+/dev/shasta_disk0  (7776001 total)
+ (00: 0007776000) (01: 0000000001)
+READS              (7776001 total)
+ (00: 0007775999) (01: 0000000002)
+
+After 82 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (193113 total)
+ (00: 0000193113)
+LARGE BLOCK WRITES (71039 total)
+ (00: 0000071038) (12: 0000000001)
+RAW READS          (7872002 total)
+ (00: 0007872001) (01: 0000000001)
+/dev/shasta_disk0  (7872002 total)
+ (00: 0007872001) (01: 0000000001)
+READS              (7872002 total)
+ (00: 0007872000) (01: 0000000002)
+
+After 83 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (195471 total)
+ (00: 0000195471)
+LARGE BLOCK WRITES (72118 total)
+ (00: 0000072116) (12: 0000000001) (16: 0000000001)
+RAW READS          (7967999 total)
+ (00: 0007967997) (01: 0000000002)
+/dev/shasta_disk0  (7967999 total)
+ (00: 0007967997) (01: 0000000002)
+READS              (7967999 total)
+ (00: 0007967996) (01: 0000000003)
+
+After 84 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (197806 total)
+ (00: 0000197806)
+LARGE BLOCK WRITES (73663 total)
+ (00: 0000073661) (12: 0000000001) (16: 0000000001)
+RAW READS          (8064000 total)
+ (00: 0008063998) (01: 0000000002)
+/dev/shasta_disk0  (8064000 total)
+ (00: 0008063998) (01: 0000000002)
+READS              (8064000 total)
+ (00: 0008063997) (01: 0000000003)
+
+After 85 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (200128 total)
+ (00: 0000200128)
+LARGE BLOCK WRITES (75203 total)
+ (00: 0000075201) (12: 0000000001) (16: 0000000001)
+RAW READS          (8160003 total)
+ (00: 0008160001) (01: 0000000002)
+/dev/shasta_disk0  (8160003 total)
+ (00: 0008160001) (01: 0000000002)
+READS              (8160003 total)
+ (00: 0008160000) (01: 0000000003)
+
+After 86 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (202404 total)
+ (00: 0000202404)
+LARGE BLOCK WRITES (76716 total)
+ (00: 0000076714) (12: 0000000001) (16: 0000000001)
+RAW READS          (8255998 total)
+ (00: 0008255996) (01: 0000000002)
+/dev/shasta_disk0  (8255998 total)
+ (00: 0008255996) (01: 0000000002)
+READS              (8255998 total)
+ (00: 0008255995) (01: 0000000003)
+
+After 87 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (204695 total)
+ (00: 0000204695)
+LARGE BLOCK WRITES (78232 total)
+ (00: 0000078230) (12: 0000000001) (16: 0000000001)
+RAW READS          (8351998 total)
+ (00: 0008351996) (01: 0000000002)
+/dev/shasta_disk0  (8351998 total)
+ (00: 0008351996) (01: 0000000002)
+READS              (8351998 total)
+ (00: 0008351995) (01: 0000000003)
+
+After 88 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (206979 total)
+ (00: 0000206979)
+LARGE BLOCK WRITES (79747 total)
+ (00: 0000079745) (12: 0000000001) (16: 0000000001)
+RAW READS          (8448001 total)
+ (00: 0008447999) (01: 0000000002)
+/dev/shasta_disk0  (8448001 total)
+ (00: 0008447999) (01: 0000000002)
+READS              (8448001 total)
+ (00: 0008447998) (01: 0000000003)
+
+After 89 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (209270 total)
+ (00: 0000209270)
+LARGE BLOCK WRITES (81263 total)
+ (00: 0000081261) (12: 0000000001) (16: 0000000001)
+RAW READS          (8543998 total)
+ (00: 0008543996) (01: 0000000002)
+/dev/shasta_disk0  (8543998 total)
+ (00: 0008543996) (01: 0000000002)
+READS              (8543998 total)
+ (00: 0008543995) (01: 0000000003)
+
+After 90 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (211559 total)
+ (00: 0000211559)
+LARGE BLOCK WRITES (82779 total)
+ (00: 0000082777) (12: 0000000001) (16: 0000000001)
+RAW READS          (8640000 total)
+ (00: 0008639998) (01: 0000000002)
+/dev/shasta_disk0  (8640000 total)
+ (00: 0008639998) (01: 0000000002)
+READS              (8640000 total)
+ (00: 0008639997) (01: 0000000003)
+
+After 91 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (213852 total)
+ (00: 0000213852)
+LARGE BLOCK WRITES (84294 total)
+ (00: 0000084292) (12: 0000000001) (16: 0000000001)
+RAW READS          (8736001 total)
+ (00: 0008735999) (01: 0000000002)
+/dev/shasta_disk0  (8736001 total)
+ (00: 0008735999) (01: 0000000002)
+READS              (8736001 total)
+ (00: 0008735998) (01: 0000000003)
+
+After 92 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (216148 total)
+ (00: 0000216148)
+LARGE BLOCK WRITES (85806 total)
+ (00: 0000085804) (12: 0000000001) (16: 0000000001)
+RAW READS          (8832000 total)
+ (00: 0008831998) (01: 0000000002)
+/dev/shasta_disk0  (8832000 total)
+ (00: 0008831998) (01: 0000000002)
+READS              (8832000 total)
+ (00: 0008831997) (01: 0000000003)
+
+After 93 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (218435 total)
+ (00: 0000218435)
+LARGE BLOCK WRITES (87321 total)
+ (00: 0000087319) (12: 0000000001) (16: 0000000001)
+RAW READS          (8928004 total)
+ (00: 0008928002) (01: 0000000002)
+/dev/shasta_disk0  (8928004 total)
+ (00: 0008928002) (01: 0000000002)
+READS              (8928004 total)
+ (00: 0008928001) (01: 0000000003)
+
+After 94 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (220733 total)
+ (00: 0000220733)
+LARGE BLOCK WRITES (88838 total)
+ (00: 0000088836) (12: 0000000001) (16: 0000000001)
+RAW READS          (9024002 total)
+ (00: 0009024000) (01: 0000000002)
+/dev/shasta_disk0  (9024002 total)
+ (00: 0009024000) (01: 0000000002)
+READS              (9024002 total)
+ (00: 0009023999) (01: 0000000003)
+
+After 95 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (223029 total)
+ (00: 0000223029)
+LARGE BLOCK WRITES (90353 total)
+ (00: 0000090351) (12: 0000000001) (16: 0000000001)
+RAW READS          (9120003 total)
+ (00: 0009120001) (01: 0000000002)
+/dev/shasta_disk0  (9120003 total)
+ (00: 0009120001) (01: 0000000002)
+READS              (9120003 total)
+ (00: 0009120000) (01: 0000000003)
+
+After 96 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (225330 total)
+ (00: 0000225330)
+LARGE BLOCK WRITES (91866 total)
+ (00: 0000091864) (12: 0000000001) (16: 0000000001)
+RAW READS          (9216000 total)
+ (00: 0009215998) (01: 0000000002)
+/dev/shasta_disk0  (9216000 total)
+ (00: 0009215998) (01: 0000000002)
+READS              (9216000 total)
+ (00: 0009215997) (01: 0000000003)
+
+After 97 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (227623 total)
+ (00: 0000227623)
+LARGE BLOCK WRITES (93378 total)
+ (00: 0000093376) (12: 0000000001) (16: 0000000001)
+RAW READS          (9312000 total)
+ (00: 0009311998) (01: 0000000002)
+/dev/shasta_disk0  (9312000 total)
+ (00: 0009311998) (01: 0000000002)
+READS              (9312000 total)
+ (00: 0009311997) (01: 0000000003)
+
+After 98 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (229911 total)
+ (00: 0000229911)
+LARGE BLOCK WRITES (94888 total)
+ (00: 0000094886) (12: 0000000001) (16: 0000000001)
+RAW READS          (9408000 total)
+ (00: 0009407998) (01: 0000000002)
+/dev/shasta_disk0  (9408000 total)
+ (00: 0009407998) (01: 0000000002)
+READS              (9408000 total)
+ (00: 0009407997) (01: 0000000003)
+
+After 99 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (232203 total)
+ (00: 0000232203)
+LARGE BLOCK WRITES (96397 total)
+ (00: 0000096395) (12: 0000000001) (16: 0000000001)
+RAW READS          (9504000 total)
+ (00: 0009503998) (01: 0000000002)
+/dev/shasta_disk0  (9504000 total)
+ (00: 0009503998) (01: 0000000002)
+READS              (9504000 total)
+ (00: 0009503997) (01: 0000000003)
+
+After 100 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (234515 total)
+ (00: 0000234515)
+LARGE BLOCK WRITES (97914 total)
+ (00: 0000097912) (12: 0000000001) (16: 0000000001)
+RAW READS          (9600001 total)
+ (00: 0009599999) (01: 0000000002)
+/dev/shasta_disk0  (9600001 total)
+ (00: 0009599999) (01: 0000000002)
+READS              (9600001 total)
+ (00: 0009599998) (01: 0000000003)
+
+After 101 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (236810 total)
+ (00: 0000236810)
+LARGE BLOCK WRITES (99427 total)
+ (00: 0000099425) (12: 0000000001) (16: 0000000001)
+RAW READS          (9696001 total)
+ (00: 0009695999) (01: 0000000002)
+/dev/shasta_disk0  (9696001 total)
+ (00: 0009695999) (01: 0000000002)
+READS              (9696001 total)
+ (00: 0009695998) (01: 0000000003)
+
+After 102 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (239114 total)
+ (00: 0000239114)
+LARGE BLOCK WRITES (100943 total)
+ (00: 0000100941) (12: 0000000001) (16: 0000000001)
+RAW READS          (9792001 total)
+ (00: 0009791999) (01: 0000000002)
+/dev/shasta_disk0  (9792002 total)
+ (00: 0009792000) (01: 0000000002)
+READS              (9792002 total)
+ (00: 0009791999) (01: 0000000003)
+
+After 103 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (241426 total)
+ (00: 0000241426)
+LARGE BLOCK WRITES (102457 total)
+ (00: 0000102455) (12: 0000000001) (16: 0000000001)
+RAW READS          (9887996 total)
+ (00: 0009887994) (01: 0000000002)
+/dev/shasta_disk0  (9887996 total)
+ (00: 0009887994) (01: 0000000002)
+READS              (9887996 total)
+ (00: 0009887993) (01: 0000000003)
+
+After 104 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (243746 total)
+ (00: 0000243746)
+LARGE BLOCK WRITES (103971 total)
+ (00: 0000103969) (12: 0000000001) (16: 0000000001)
+RAW READS          (9984004 total)
+ (00: 0009984002) (01: 0000000002)
+/dev/shasta_disk0  (9984004 total)
+ (00: 0009984002) (01: 0000000002)
+READS              (9984004 total)
+ (00: 0009984001) (01: 0000000003)
+
+After 105 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (246060 total)
+ (00: 0000246060)
+LARGE BLOCK WRITES (105484 total)
+ (00: 0000105482) (12: 0000000001) (16: 0000000001)
+RAW READS          (10080003 total)
+ (00: 0010080001) (01: 0000000002)
+/dev/shasta_disk0  (10080003 total)
+ (00: 0010080001) (01: 0000000002)
+READS              (10080004 total)
+ (00: 0010080001) (01: 0000000003)
+
+After 106 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (248370 total)
+ (00: 0000248370)
+LARGE BLOCK WRITES (106998 total)
+ (00: 0000106996) (12: 0000000001) (16: 0000000001)
+RAW READS          (10176004 total)
+ (00: 0010176002) (01: 0000000002)
+/dev/shasta_disk0  (10176004 total)
+ (00: 0010176002) (01: 0000000002)
+READS              (10176005 total)
+ (00: 0010176002) (01: 0000000003)
+
+After 107 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (250695 total)
+ (00: 0000250695)
+LARGE BLOCK WRITES (108510 total)
+ (00: 0000108508) (12: 0000000001) (16: 0000000001)
+RAW READS          (10271996 total)
+ (00: 0010271994) (01: 0000000002)
+/dev/shasta_disk0  (10271996 total)
+ (00: 0010271994) (01: 0000000002)
+READS              (10271996 total)
+ (00: 0010271993) (01: 0000000003)
+
+After 108 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (253005 total)
+ (00: 0000253005)
+LARGE BLOCK WRITES (110023 total)
+ (00: 0000110021) (12: 0000000001) (16: 0000000001)
+RAW READS          (10368004 total)
+ (00: 0010368002) (01: 0000000002)
+/dev/shasta_disk0  (10368004 total)
+ (00: 0010368002) (01: 0000000002)
+READS              (10368004 total)
+ (00: 0010368001) (01: 0000000003)
+
+After 109 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (255312 total)
+ (00: 0000255312)
+LARGE BLOCK WRITES (111534 total)
+ (00: 0000111532) (12: 0000000001) (16: 0000000001)
+RAW READS          (10464004 total)
+ (00: 0010464002) (01: 0000000002)
+/dev/shasta_disk0  (10464004 total)
+ (00: 0010464002) (01: 0000000002)
+READS              (10464004 total)
+ (00: 0010464001) (01: 0000000003)
+
+After 110 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (257630 total)
+ (00: 0000257630)
+LARGE BLOCK WRITES (113050 total)
+ (00: 0000113048) (12: 0000000001) (16: 0000000001)
+RAW READS          (10560003 total)
+ (00: 0010560001) (01: 0000000002)
+/dev/shasta_disk0  (10560003 total)
+ (00: 0010560001) (01: 0000000002)
+READS              (10560003 total)
+ (00: 0010560000) (01: 0000000003)
+
+After 111 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (259943 total)
+ (00: 0000259943)
+LARGE BLOCK WRITES (114561 total)
+ (00: 0000114559) (12: 0000000001) (16: 0000000001)
+RAW READS          (10655999 total)
+ (00: 0010655997) (01: 0000000002)
+/dev/shasta_disk0  (10656000 total)
+ (00: 0010655998) (01: 0000000002)
+READS              (10656001 total)
+ (00: 0010655998) (01: 0000000003)
+
+After 112 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (262252 total)
+ (00: 0000262252)
+LARGE BLOCK WRITES (116075 total)
+ (00: 0000116073) (12: 0000000001) (16: 0000000001)
+RAW READS          (10752003 total)
+ (00: 0010752001) (01: 0000000002)
+/dev/shasta_disk0  (10752003 total)
+ (00: 0010752001) (01: 0000000002)
+READS              (10752003 total)
+ (00: 0010752000) (01: 0000000003)
+
+After 113 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (264587 total)
+ (00: 0000264587)
+LARGE BLOCK WRITES (117588 total)
+ (00: 0000117586) (12: 0000000001) (16: 0000000001)
+RAW READS          (10848004 total)
+ (00: 0010848002) (01: 0000000002)
+/dev/shasta_disk0  (10848004 total)
+ (00: 0010848002) (01: 0000000002)
+READS              (10848004 total)
+ (00: 0010848001) (01: 0000000003)
+
+After 114 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (266910 total)
+ (00: 0000266910)
+LARGE BLOCK WRITES (119103 total)
+ (00: 0000119101) (12: 0000000001) (16: 0000000001)
+RAW READS          (10943999 total)
+ (00: 0010943997) (01: 0000000002)
+/dev/shasta_disk0  (10943999 total)
+ (00: 0010943997) (01: 0000000002)
+READS              (10943999 total)
+ (00: 0010943996) (01: 0000000003)
+
+After 115 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (269238 total)
+ (00: 0000269238)
+LARGE BLOCK WRITES (120616 total)
+ (00: 0000120614) (12: 0000000001) (16: 0000000001)
+RAW READS          (11040002 total)
+ (00: 0011039999) (01: 0000000003)
+/dev/shasta_disk0  (11040002 total)
+ (00: 0011039999) (01: 0000000003)
+READS              (11040002 total)
+ (00: 0011039998) (01: 0000000004)
+
+After 116 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (271574 total)
+ (00: 0000271574)
+LARGE BLOCK WRITES (122133 total)
+ (00: 0000122131) (12: 0000000001) (16: 0000000001)
+RAW READS          (11136003 total)
+ (00: 0011136000) (01: 0000000003)
+/dev/shasta_disk0  (11136004 total)
+ (00: 0011136001) (01: 0000000003)
+READS              (11136004 total)
+ (00: 0011136000) (01: 0000000004)
+
+After 117 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (273905 total)
+ (00: 0000273905)
+LARGE BLOCK WRITES (123646 total)
+ (00: 0000123644) (12: 0000000001) (16: 0000000001)
+RAW READS          (11232004 total)
+ (00: 0011232001) (01: 0000000003)
+/dev/shasta_disk0  (11232005 total)
+ (00: 0011232002) (01: 0000000003)
+READS              (11232005 total)
+ (00: 0011232001) (01: 0000000004)
+
+After 118 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (276226 total)
+ (00: 0000276226)
+LARGE BLOCK WRITES (125157 total)
+ (00: 0000125155) (12: 0000000001) (16: 0000000001)
+RAW READS          (11328004 total)
+ (00: 0011328001) (01: 0000000003)
+/dev/shasta_disk0  (11328005 total)
+ (00: 0011328002) (01: 0000000003)
+READS              (11328005 total)
+ (00: 0011328001) (01: 0000000004)
+
+After 119 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (278550 total)
+ (00: 0000278550)
+LARGE BLOCK WRITES (126671 total)
+ (00: 0000126669) (12: 0000000001) (16: 0000000001)
+RAW READS          (11424003 total)
+ (00: 0011424000) (01: 0000000003)
+/dev/shasta_disk0  (11424003 total)
+ (00: 0011424000) (01: 0000000003)
+READS              (11424003 total)
+ (00: 0011423999) (01: 0000000004)
+
+After 120 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (280890 total)
+ (00: 0000280890)
+LARGE BLOCK WRITES (128187 total)
+ (00: 0000128185) (12: 0000000001) (16: 0000000001)
+RAW READS          (11520002 total)
+ (00: 0011519999) (01: 0000000003)
+/dev/shasta_disk0  (11520002 total)
+ (00: 0011519999) (01: 0000000003)
+READS              (11520002 total)
+ (00: 0011519998) (01: 0000000004)
+
+After 121 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (283222 total)
+ (00: 0000283222)
+LARGE BLOCK WRITES (129701 total)
+ (00: 0000129699) (12: 0000000001) (16: 0000000001)
+RAW READS          (11616004 total)
+ (00: 0011616001) (01: 0000000003)
+/dev/shasta_disk0  (11616004 total)
+ (00: 0011616001) (01: 0000000003)
+READS              (11616004 total)
+ (00: 0011616000) (01: 0000000004)
+
+After 122 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (285556 total)
+ (00: 0000285556)
+LARGE BLOCK WRITES (131214 total)
+ (00: 0000131212) (12: 0000000001) (16: 0000000001)
+RAW READS          (11712001 total)
+ (00: 0011711998) (01: 0000000003)
+/dev/shasta_disk0  (11712001 total)
+ (00: 0011711998) (01: 0000000003)
+READS              (11712001 total)
+ (00: 0011711997) (01: 0000000004)
+
+After 123 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (287891 total)
+ (00: 0000287891)
+LARGE BLOCK WRITES (132724 total)
+ (00: 0000132722) (12: 0000000001) (16: 0000000001)
+RAW READS          (11808000 total)
+ (00: 0011807997) (01: 0000000003)
+/dev/shasta_disk0  (11808000 total)
+ (00: 0011807997) (01: 0000000003)
+READS              (11808000 total)
+ (00: 0011807996) (01: 0000000004)
+
+After 124 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (290231 total)
+ (00: 0000290231)
+LARGE BLOCK WRITES (134236 total)
+ (00: 0000134234) (12: 0000000001) (16: 0000000001)
+RAW READS          (11904003 total)
+ (00: 0011904000) (01: 0000000003)
+/dev/shasta_disk0  (11904003 total)
+ (00: 0011904000) (01: 0000000003)
+READS              (11904003 total)
+ (00: 0011903999) (01: 0000000004)
+
+After 125 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (292583 total)
+ (00: 0000292583)
+LARGE BLOCK WRITES (135748 total)
+ (00: 0000135746) (12: 0000000001) (16: 0000000001)
+RAW READS          (12000000 total)
+ (00: 0011999997) (01: 0000000003)
+/dev/shasta_disk0  (12000001 total)
+ (00: 0011999998) (01: 0000000003)
+READS              (12000002 total)
+ (00: 0011999998) (01: 0000000004)
+
+After 126 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (294966 total)
+ (00: 0000294966)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12096000 total)
+ (00: 0012095997) (01: 0000000003)
+/dev/shasta_disk0  (12096000 total)
+ (00: 0012095997) (01: 0000000003)
+READS              (12096000 total)
+ (00: 0012095996) (01: 0000000004)
+
+After 127 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (297391 total)
+ (00: 0000297391)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12191997 total)
+ (00: 0012191994) (01: 0000000003)
+/dev/shasta_disk0  (12191997 total)
+ (00: 0012191994) (01: 0000000003)
+READS              (12191997 total)
+ (00: 0012191993) (01: 0000000004)
+
+After 128 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12288000 total)
+ (00: 0012287997) (01: 0000000003)
+/dev/shasta_disk0  (12288000 total)
+ (00: 0012287997) (01: 0000000003)
+READS              (12288000 total)
+ (00: 0012287996) (01: 0000000004)
+
+After 129 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12384002 total)
+ (00: 0012383999) (01: 0000000003)
+/dev/shasta_disk0  (12384004 total)
+ (00: 0012384001) (01: 0000000003)
+READS              (12384004 total)
+ (00: 0012384000) (01: 0000000004)
+
+After 130 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12480000 total)
+ (00: 0012479997) (01: 0000000003)
+/dev/shasta_disk0  (12480000 total)
+ (00: 0012479997) (01: 0000000003)
+READS              (12480000 total)
+ (00: 0012479996) (01: 0000000004)
+
+After 131 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12575998 total)
+ (00: 0012575995) (01: 0000000003)
+/dev/shasta_disk0  (12575998 total)
+ (00: 0012575995) (01: 0000000003)
+READS              (12575998 total)
+ (00: 0012575994) (01: 0000000004)
+
+After 132 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12672000 total)
+ (00: 0012671997) (01: 0000000003)
+/dev/shasta_disk0  (12672000 total)
+ (00: 0012671997) (01: 0000000003)
+READS              (12672000 total)
+ (00: 0012671996) (01: 0000000004)
+
+After 133 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12768003 total)
+ (00: 0012768000) (01: 0000000003)
+/dev/shasta_disk0  (12768003 total)
+ (00: 0012768000) (01: 0000000003)
+READS              (12768004 total)
+ (00: 0012768000) (01: 0000000004)
+
+After 134 sec:
+read-reqs queued: 4
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12864002 total)
+ (00: 0012863999) (01: 0000000003)
+/dev/shasta_disk0  (12864002 total)
+ (00: 0012863999) (01: 0000000003)
+READS              (12864003 total)
+ (00: 0012863999) (01: 0000000004)
+
+After 135 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (12960002 total)
+ (00: 0012959999) (01: 0000000003)
+/dev/shasta_disk0  (12960002 total)
+ (00: 0012959999) (01: 0000000003)
+READS              (12960002 total)
+ (00: 0012959998) (01: 0000000004)
+
+After 136 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13056003 total)
+ (00: 0013056000) (01: 0000000003)
+/dev/shasta_disk0  (13056003 total)
+ (00: 0013056000) (01: 0000000003)
+READS              (13056003 total)
+ (00: 0013055999) (01: 0000000004)
+
+After 137 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13152000 total)
+ (00: 0013151997) (01: 0000000003)
+/dev/shasta_disk0  (13152000 total)
+ (00: 0013151997) (01: 0000000003)
+READS              (13152000 total)
+ (00: 0013151996) (01: 0000000004)
+
+After 138 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13248003 total)
+ (00: 0013248000) (01: 0000000003)
+/dev/shasta_disk0  (13248003 total)
+ (00: 0013248000) (01: 0000000003)
+READS              (13248003 total)
+ (00: 0013247999) (01: 0000000004)
+
+After 139 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13344004 total)
+ (00: 0013344001) (01: 0000000003)
+/dev/shasta_disk0  (13344004 total)
+ (00: 0013344001) (01: 0000000003)
+READS              (13344004 total)
+ (00: 0013344000) (01: 0000000004)
+
+After 140 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13440004 total)
+ (00: 0013440001) (01: 0000000003)
+/dev/shasta_disk0  (13440004 total)
+ (00: 0013440001) (01: 0000000003)
+READS              (13440004 total)
+ (00: 0013440000) (01: 0000000004)
+
+After 141 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13536003 total)
+ (00: 0013536000) (01: 0000000003)
+/dev/shasta_disk0  (13536003 total)
+ (00: 0013536000) (01: 0000000003)
+READS              (13536003 total)
+ (00: 0013535999) (01: 0000000004)
+
+After 142 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13632004 total)
+ (00: 0013632001) (01: 0000000003)
+/dev/shasta_disk0  (13632004 total)
+ (00: 0013632001) (01: 0000000003)
+READS              (13632004 total)
+ (00: 0013632000) (01: 0000000004)
+
+After 143 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13727999 total)
+ (00: 0013727996) (01: 0000000003)
+/dev/shasta_disk0  (13727999 total)
+ (00: 0013727996) (01: 0000000003)
+READS              (13728000 total)
+ (00: 0013727996) (01: 0000000004)
+
+After 144 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13824001 total)
+ (00: 0013823998) (01: 0000000003)
+/dev/shasta_disk0  (13824001 total)
+ (00: 0013823998) (01: 0000000003)
+READS              (13824001 total)
+ (00: 0013823997) (01: 0000000004)
+
+After 145 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (13920000 total)
+ (00: 0013919997) (01: 0000000003)
+/dev/shasta_disk0  (13920000 total)
+ (00: 0013919997) (01: 0000000003)
+READS              (13920000 total)
+ (00: 0013919996) (01: 0000000004)
+
+After 146 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14016000 total)
+ (00: 0014015997) (01: 0000000003)
+/dev/shasta_disk0  (14016000 total)
+ (00: 0014015997) (01: 0000000003)
+READS              (14016000 total)
+ (00: 0014015996) (01: 0000000004)
+
+After 147 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14112002 total)
+ (00: 0014111999) (01: 0000000003)
+/dev/shasta_disk0  (14112002 total)
+ (00: 0014111999) (01: 0000000003)
+READS              (14112002 total)
+ (00: 0014111998) (01: 0000000004)
+
+After 148 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14208004 total)
+ (00: 0014208001) (01: 0000000003)
+/dev/shasta_disk0  (14208004 total)
+ (00: 0014208001) (01: 0000000003)
+READS              (14208004 total)
+ (00: 0014208000) (01: 0000000004)
+
+After 149 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14304000 total)
+ (00: 0014303997) (01: 0000000003)
+/dev/shasta_disk0  (14304000 total)
+ (00: 0014303997) (01: 0000000003)
+READS              (14304000 total)
+ (00: 0014303996) (01: 0000000004)
+
+After 150 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14400003 total)
+ (00: 0014400000) (01: 0000000003)
+/dev/shasta_disk0  (14400003 total)
+ (00: 0014400000) (01: 0000000003)
+READS              (14400003 total)
+ (00: 0014399999) (01: 0000000004)
+
+After 151 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14496000 total)
+ (00: 0014495997) (01: 0000000003)
+/dev/shasta_disk0  (14496000 total)
+ (00: 0014495997) (01: 0000000003)
+READS              (14496000 total)
+ (00: 0014495996) (01: 0000000004)
+
+After 152 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14592004 total)
+ (00: 0014592001) (01: 0000000003)
+/dev/shasta_disk0  (14592004 total)
+ (00: 0014592001) (01: 0000000003)
+READS              (14592004 total)
+ (00: 0014592000) (01: 0000000004)
+
+After 153 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14688001 total)
+ (00: 0014687998) (01: 0000000003)
+/dev/shasta_disk0  (14688001 total)
+ (00: 0014687998) (01: 0000000003)
+READS              (14688001 total)
+ (00: 0014687997) (01: 0000000004)
+
+After 154 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14784002 total)
+ (00: 0014783999) (01: 0000000003)
+/dev/shasta_disk0  (14784002 total)
+ (00: 0014783999) (01: 0000000003)
+READS              (14784002 total)
+ (00: 0014783998) (01: 0000000004)
+
+After 155 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14880003 total)
+ (00: 0014880000) (01: 0000000003)
+/dev/shasta_disk0  (14880003 total)
+ (00: 0014880000) (01: 0000000003)
+READS              (14880003 total)
+ (00: 0014879999) (01: 0000000004)
+
+After 156 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (14976002 total)
+ (00: 0014975999) (01: 0000000003)
+/dev/shasta_disk0  (14976002 total)
+ (00: 0014975999) (01: 0000000003)
+READS              (14976002 total)
+ (00: 0014975998) (01: 0000000004)
+
+After 157 sec:
+read-reqs queued: 1
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (15072000 total)
+ (00: 0015071997) (01: 0000000003)
+/dev/shasta_disk0  (15072000 total)
+ (00: 0015071997) (01: 0000000003)
+READS              (15072000 total)
+ (00: 0015071996) (01: 0000000004)
+
+After 158 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (15168004 total)
+ (00: 0015168001) (01: 0000000003)
+/dev/shasta_disk0  (15168005 total)
+ (00: 0015168002) (01: 0000000003)
+READS              (15168005 total)
+ (00: 0015168001) (01: 0000000004)
+
+After 159 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (299388 total)
+ (00: 0000299388)
+LARGE BLOCK WRITES (136511 total)
+ (00: 0000136509) (12: 0000000001) (16: 0000000001)
+RAW READS          (15264001 total)
+ (00: 0015263998) (01: 0000000003)
+/dev/shasta_disk0  (15264001 total)
+ (00: 0015263998) (01: 0000000003)
+READS              (15264001 total)
+ (00: 0015263997) (01: 0000000004)
+
+After 160 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (301438 total)
+ (00: 0000301437) (15: 0000000001)
+LARGE BLOCK WRITES (137871 total)
+ (00: 0000137868) (12: 0000000001) (16: 0000000002)
+RAW READS          (15360004 total)
+ (00: 0015360001) (01: 0000000003)
+/dev/shasta_disk0  (15360004 total)
+ (00: 0015360001) (01: 0000000003)
+READS              (15360004 total)
+ (00: 0015360000) (01: 0000000004)
+
+After 161 sec:
+read-reqs queued: 6
+LARGE BLOCK READS  (303757 total)
+ (00: 0000303756) (15: 0000000001)
+LARGE BLOCK WRITES (139431 total)
+ (00: 0000139428) (12: 0000000001) (16: 0000000002)
+RAW READS          (15456000 total)
+ (00: 0015455997) (01: 0000000003)
+/dev/shasta_disk0  (15456000 total)
+ (00: 0015455997) (01: 0000000003)
+READS              (15456000 total)
+ (00: 0015455996) (01: 0000000004)
+
+After 162 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (306057 total)
+ (00: 0000306056) (15: 0000000001)
+LARGE BLOCK WRITES (140988 total)
+ (00: 0000140985) (12: 0000000001) (16: 0000000002)
+RAW READS          (15552004 total)
+ (00: 0015552001) (01: 0000000003)
+/dev/shasta_disk0  (15552004 total)
+ (00: 0015552001) (01: 0000000003)
+READS              (15552004 total)
+ (00: 0015552000) (01: 0000000004)
+
+After 163 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (308334 total)
+ (00: 0000308333) (15: 0000000001)
+LARGE BLOCK WRITES (142532 total)
+ (00: 0000142529) (12: 0000000001) (16: 0000000002)
+RAW READS          (15648002 total)
+ (00: 0015647999) (01: 0000000003)
+/dev/shasta_disk0  (15648002 total)
+ (00: 0015647999) (01: 0000000003)
+READS              (15648002 total)
+ (00: 0015647998) (01: 0000000004)
+
+After 164 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (310613 total)
+ (00: 0000310612) (15: 0000000001)
+LARGE BLOCK WRITES (144085 total)
+ (00: 0000144082) (12: 0000000001) (16: 0000000002)
+RAW READS          (15743999 total)
+ (00: 0015743996) (01: 0000000003)
+/dev/shasta_disk0  (15743999 total)
+ (00: 0015743996) (01: 0000000003)
+READS              (15743999 total)
+ (00: 0015743995) (01: 0000000004)
+
+After 165 sec:
+read-reqs queued: 2
+LARGE BLOCK READS  (312891 total)
+ (00: 0000312890) (15: 0000000001)
+LARGE BLOCK WRITES (145635 total)
+ (00: 0000145632) (12: 0000000001) (16: 0000000002)
+RAW READS          (15840004 total)
+ (00: 0015840001) (01: 0000000003)
+/dev/shasta_disk0  (15840004 total)
+ (00: 0015840001) (01: 0000000003)
+READS              (15840004 total)
+ (00: 0015840000) (01: 0000000004)
+
+After 166 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (315170 total)
+ (00: 0000315169) (15: 0000000001)
+LARGE BLOCK WRITES (147187 total)
+ (00: 0000147184) (12: 0000000001) (16: 0000000002)
+RAW READS          (15936003 total)
+ (00: 0015936000) (01: 0000000003)
+/dev/shasta_disk0  (15936003 total)
+ (00: 0015936000) (01: 0000000003)
+READS              (15936003 total)
+ (00: 0015935999) (01: 0000000004)
+
+After 167 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (317450 total)
+ (00: 0000317449) (15: 0000000001)
+LARGE BLOCK WRITES (148738 total)
+ (00: 0000148735) (12: 0000000001) (16: 0000000002)
+RAW READS          (16032001 total)
+ (00: 0016031998) (01: 0000000003)
+/dev/shasta_disk0  (16032001 total)
+ (00: 0016031998) (01: 0000000003)
+READS              (16032001 total)
+ (00: 0016031997) (01: 0000000004)
+
+After 168 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (319731 total)
+ (00: 0000319730) (15: 0000000001)
+LARGE BLOCK WRITES (150287 total)
+ (00: 0000150284) (12: 0000000001) (16: 0000000002)
+RAW READS          (16128003 total)
+ (00: 0016128000) (01: 0000000003)
+/dev/shasta_disk0  (16128003 total)
+ (00: 0016128000) (01: 0000000003)
+READS              (16128003 total)
+ (00: 0016127999) (01: 0000000004)
+
+After 169 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (322004 total)
+ (00: 0000322003) (15: 0000000001)
+LARGE BLOCK WRITES (151829 total)
+ (00: 0000151826) (12: 0000000001) (16: 0000000002)
+RAW READS          (16224003 total)
+ (00: 0016224000) (01: 0000000003)
+/dev/shasta_disk0  (16224003 total)
+ (00: 0016224000) (01: 0000000003)
+READS              (16224003 total)
+ (00: 0016223999) (01: 0000000004)
+
+After 170 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (324276 total)
+ (00: 0000324275) (15: 0000000001)
+LARGE BLOCK WRITES (153375 total)
+ (00: 0000153372) (12: 0000000001) (16: 0000000002)
+RAW READS          (16320003 total)
+ (00: 0016320000) (01: 0000000003)
+/dev/shasta_disk0  (16320003 total)
+ (00: 0016320000) (01: 0000000003)
+READS              (16320003 total)
+ (00: 0016319999) (01: 0000000004)
+
+After 171 sec:
+read-reqs queued: 7
+LARGE BLOCK READS  (326562 total)
+ (00: 0000326561) (15: 0000000001)
+LARGE BLOCK WRITES (154925 total)
+ (00: 0000154922) (12: 0000000001) (16: 0000000002)
+RAW READS          (16416000 total)
+ (00: 0016415997) (01: 0000000003)
+/dev/shasta_disk0  (16416000 total)
+ (00: 0016415997) (01: 0000000003)
+READS              (16416000 total)
+ (00: 0016415996) (01: 0000000004)
+
+After 172 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (328848 total)
+ (00: 0000328847) (15: 0000000001)
+LARGE BLOCK WRITES (156472 total)
+ (00: 0000156469) (12: 0000000001) (16: 0000000002)
+RAW READS          (16512003 total)
+ (00: 0016512000) (01: 0000000003)
+/dev/shasta_disk0  (16512003 total)
+ (00: 0016512000) (01: 0000000003)
+READS              (16512003 total)
+ (00: 0016511999) (01: 0000000004)
+
+After 173 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (331134 total)
+ (00: 0000331133) (15: 0000000001)
+LARGE BLOCK WRITES (158022 total)
+ (00: 0000158019) (12: 0000000001) (16: 0000000002)
+RAW READS          (16608002 total)
+ (00: 0016607999) (01: 0000000003)
+/dev/shasta_disk0  (16608002 total)
+ (00: 0016607999) (01: 0000000003)
+READS              (16608002 total)
+ (00: 0016607998) (01: 0000000004)
+
+After 174 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (333428 total)
+ (00: 0000333427) (15: 0000000001)
+LARGE BLOCK WRITES (159569 total)
+ (00: 0000159566) (12: 0000000001) (16: 0000000002)
+RAW READS          (16704002 total)
+ (00: 0016703999) (01: 0000000003)
+/dev/shasta_disk0  (16704002 total)
+ (00: 0016703999) (01: 0000000003)
+READS              (16704002 total)
+ (00: 0016703998) (01: 0000000004)
+
+After 175 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (335720 total)
+ (00: 0000335719) (15: 0000000001)
+LARGE BLOCK WRITES (161119 total)
+ (00: 0000161116) (12: 0000000001) (16: 0000000002)
+RAW READS          (16800003 total)
+ (00: 0016800000) (01: 0000000003)
+/dev/shasta_disk0  (16800003 total)
+ (00: 0016800000) (01: 0000000003)
+READS              (16800003 total)
+ (00: 0016799999) (01: 0000000004)
+
+After 176 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (338013 total)
+ (00: 0000338012) (15: 0000000001)
+LARGE BLOCK WRITES (162674 total)
+ (00: 0000162671) (12: 0000000001) (16: 0000000002)
+RAW READS          (16896004 total)
+ (00: 0016896001) (01: 0000000003)
+/dev/shasta_disk0  (16896004 total)
+ (00: 0016896001) (01: 0000000003)
+READS              (16896004 total)
+ (00: 0016896000) (01: 0000000004)
+
+After 177 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (340310 total)
+ (00: 0000340309) (15: 0000000001)
+LARGE BLOCK WRITES (164243 total)
+ (00: 0000164240) (12: 0000000001) (16: 0000000002)
+RAW READS          (16992002 total)
+ (00: 0016991999) (01: 0000000003)
+/dev/shasta_disk0  (16992002 total)
+ (00: 0016991999) (01: 0000000003)
+READS              (16992002 total)
+ (00: 0016991998) (01: 0000000004)
+
+After 178 sec:
+read-reqs queued: 5
+LARGE BLOCK READS  (342603 total)
+ (00: 0000342602) (15: 0000000001)
+LARGE BLOCK WRITES (165811 total)
+ (00: 0000165808) (12: 0000000001) (16: 0000000002)
+RAW READS          (17088000 total)
+ (00: 0017087997) (01: 0000000003)
+/dev/shasta_disk0  (17088000 total)
+ (00: 0017087997) (01: 0000000003)
+READS              (17088000 total)
+ (00: 0017087996) (01: 0000000004)
+
+After 179 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (344909 total)
+ (00: 0000344908) (15: 0000000001)
+LARGE BLOCK WRITES (167379 total)
+ (00: 0000167376) (12: 0000000001) (16: 0000000002)
+RAW READS          (17184004 total)
+ (00: 0017184001) (01: 0000000003)
+/dev/shasta_disk0  (17184004 total)
+ (00: 0017184001) (01: 0000000003)
+READS              (17184004 total)
+ (00: 0017184000) (01: 0000000004)
+
+After 180 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (347218 total)
+ (00: 0000347217) (15: 0000000001)
+LARGE BLOCK WRITES (168947 total)
+ (00: 0000168944) (12: 0000000001) (16: 0000000002)
+RAW READS          (17280001 total)
+ (00: 0017279998) (01: 0000000003)
+/dev/shasta_disk0  (17280001 total)
+ (00: 0017279998) (01: 0000000003)
+READS              (17280001 total)
+ (00: 0017279997) (01: 0000000004)
+
+After 181 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (349514 total)
+ (00: 0000349513) (15: 0000000001)
+LARGE BLOCK WRITES (170511 total)
+ (00: 0000170508) (12: 0000000001) (16: 0000000002)
+RAW READS          (17376000 total)
+ (00: 0017375996) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17376000 total)
+ (00: 0017375996) (01: 0000000003) (04: 0000000001)
+READS              (17376000 total)
+ (00: 0017375995) (01: 0000000004) (04: 0000000001)
+
+After 182 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (351829 total)
+ (00: 0000351828) (15: 0000000001)
+LARGE BLOCK WRITES (172079 total)
+ (00: 0000172076) (12: 0000000001) (16: 0000000002)
+RAW READS          (17472004 total)
+ (00: 0017472000) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17472004 total)
+ (00: 0017472000) (01: 0000000003) (04: 0000000001)
+READS              (17472004 total)
+ (00: 0017471999) (01: 0000000004) (04: 0000000001)
+
+After 183 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (354133 total)
+ (00: 0000354132) (15: 0000000001)
+LARGE BLOCK WRITES (173642 total)
+ (00: 0000173639) (12: 0000000001) (16: 0000000002)
+RAW READS          (17567998 total)
+ (00: 0017567994) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17567998 total)
+ (00: 0017567994) (01: 0000000003) (04: 0000000001)
+READS              (17567999 total)
+ (00: 0017567994) (01: 0000000004) (04: 0000000001)
+
+After 184 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (356459 total)
+ (00: 0000356458) (15: 0000000001)
+LARGE BLOCK WRITES (175213 total)
+ (00: 0000175210) (12: 0000000001) (16: 0000000002)
+RAW READS          (17664004 total)
+ (00: 0017664000) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17664004 total)
+ (00: 0017664000) (01: 0000000003) (04: 0000000001)
+READS              (17664004 total)
+ (00: 0017663999) (01: 0000000004) (04: 0000000001)
+
+After 185 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (358767 total)
+ (00: 0000358765) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (176782 total)
+ (00: 0000176779) (12: 0000000001) (16: 0000000002)
+RAW READS          (17760003 total)
+ (00: 0017759999) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17760005 total)
+ (00: 0017760001) (01: 0000000003) (04: 0000000001)
+READS              (17760005 total)
+ (00: 0017760000) (01: 0000000004) (04: 0000000001)
+
+After 186 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (361083 total)
+ (00: 0000361081) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (178349 total)
+ (00: 0000178346) (12: 0000000001) (16: 0000000002)
+RAW READS          (17856004 total)
+ (00: 0017856000) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17856004 total)
+ (00: 0017856000) (01: 0000000003) (04: 0000000001)
+READS              (17856004 total)
+ (00: 0017855999) (01: 0000000004) (04: 0000000001)
+
+After 187 sec:
+read-reqs queued: 3
+LARGE BLOCK READS  (363415 total)
+ (00: 0000363413) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (179916 total)
+ (00: 0000179913) (12: 0000000001) (16: 0000000002)
+RAW READS          (17952000 total)
+ (00: 0017951996) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (17952000 total)
+ (00: 0017951996) (01: 0000000003) (04: 0000000001)
+READS              (17952000 total)
+ (00: 0017951995) (01: 0000000004) (04: 0000000001)
+
+After 188 sec:
+read-reqs queued: 0
+LARGE BLOCK READS  (365726 total)
+ (00: 0000365724) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (181480 total)
+ (00: 0000181477) (12: 0000000001) (16: 0000000002)
+RAW READS          (18048001 total)
+ (00: 0018047997) (01: 0000000003) (04: 0000000001)
+/dev/shasta_disk0  (18048001 total)
+ (00: 0018047997) (01: 0000000003) (04: 0000000001)
+READS              (18048001 total)
+ (00: 0018047996) (01: 0000000004) (04: 0000000001)
+
+After 189 sec:
+read-reqs queued: 15411
+LARGE BLOCK READS  (366402 total)
+ (00: 0000366400) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (183534 total)
+ (00: 0000183531) (12: 0000000001) (16: 0000000002)
+RAW READS          (18075955 total)
+ (00: 0018075950) (01: 0000000003) (04: 0000000002)
+/dev/shasta_disk0  (18075955 total)
+ (00: 0018075950) (01: 0000000003) (04: 0000000002)
+READS              (18075955 total)
+ (00: 0018075927) (01: 0000000004) (04: 0000000001) (05: 0000000007)
+ (08: 0000000016)
+
+ERROR: too many read reqs queued
+drive(s) can't keep up - test stopped
+After 190 sec:
+read-reqs queued: 100001
+LARGE BLOCK READS  (366402 total)
+ (00: 0000366400) (01: 0000000001) (15: 0000000001)
+LARGE BLOCK WRITES (184452 total)
+ (00: 0000184449) (12: 0000000001) (16: 0000000002)
+RAW READS          (18075955 total)
+ (00: 0018075950) (01: 0000000003) (04: 0000000002)
+/dev/shasta_disk0  (18075955 total)
+ (00: 0018075950) (01: 0000000003) (04: 0000000002)
+READS              (18075955 total)
+ (00: 0018075927) (01: 0000000004) (04: 0000000001) (05: 0000000007)
+ (08: 0000000016)
+
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"
+ERROR: seek & read errno=5 err_msg="Input/output error"

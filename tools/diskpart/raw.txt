@@ -1,0 +1,4 @@
+select disk 1
+CLEAN
+convert mbr
+exit

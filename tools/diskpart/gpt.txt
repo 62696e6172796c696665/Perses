@@ -1,0 +1,8 @@
+select disk 1
+CLEAN
+convert GPT
+create partition primary
+select partition 2
+format fs=ntfs label="IOMETER" quick
+assign letter=X
+exit

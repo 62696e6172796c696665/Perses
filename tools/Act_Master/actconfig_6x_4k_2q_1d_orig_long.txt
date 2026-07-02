@@ -1,0 +1,29 @@
+##########
+act config file for testing 1 device(s) at 6x load
+##########
+
+# comma-separated list:
+device-names: /dev/nvme0n1
+
+# yes|no - default is no:
+queue-per-device: no
+
+# mandatory non-zero, ignored if queue-per-device is yes:
+num-queues: 2
+
+# mandatory non-zero:
+threads-per-queue: 8
+test-duration-sec: 236000
+report-interval-sec: 1
+large-block-op-kbytes: 128
+
+record-bytes: 4096
+read-reqs-per-sec: 12000
+
+# usually non-zero:
+write-reqs-per-sec: 6000
+# yes|no - default is no:
+use-valloc: no
+
+# noop|cfq - default is noop:
+scheduler-mode: noop

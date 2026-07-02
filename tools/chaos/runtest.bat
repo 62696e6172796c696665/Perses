@@ -1,0 +1,1 @@
+chaos -b=X: -t=6 -d=8 -e=unique -g=4kb -s=4kb,256mb -m=4kb,64kb -p=30 -l=%cd%\chaos.log
