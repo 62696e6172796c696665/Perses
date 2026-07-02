@@ -1,0 +1,28 @@
+name: bct_test
+description: run bct_test
+loop: 1
+cases:
+  - script: test_lba_rw:TestLBA.test_rw_basic
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_seq_no_same
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_seq_same
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_random
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_out_of_range
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_write_unco
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_write_zeroes
+    duration: 0
+    loop: 1
+  - script: test_lba_rw:TestLBA.test_rw_write_unco_out_of_range
+    duration: 0
+    loop: 1

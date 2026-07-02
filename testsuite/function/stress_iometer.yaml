@@ -1,0 +1,10 @@
+name: stress iometer test suite
+description: run IoMeter - Raw Disk and Formated Volume (X)
+loop: 500
+cases:
+  - script: test_iomete.py:TestIoMete.test_raw_disk
+    duration: 0
+    loop: 1
+  - script: test_iomete.py:TestIoMete.test_format_volume
+    duration: 0
+    loop: 1

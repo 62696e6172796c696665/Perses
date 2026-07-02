@@ -1,0 +1,50 @@
+name: benchmark_iometer
+description: run iometer to test performance
+loop: 1
+cases:
+  - script: test_iometer_perf:TestIoMeter.test_iometer_precondition_seq_write
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_128k_seq_read_qd32
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_128k_seq_read_qd128
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_128k_seq_write_qd32
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_128k_seq_write_qd128
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_precondition_rand_write
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_read_qd1
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_read_qd4
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_read_qd128
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_r7w3_qd32
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_r7w3_qd128
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_8k_random_r7w3_qd32
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_8k_random_r7w3_qd128
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_write_qd32
+    duration: 0
+    loop: 1
+  - script: test_iometer_perf:TestIoMeter.test_iometer_4k_random_write_qd128
+    duration: 0
+    loop: 1
+

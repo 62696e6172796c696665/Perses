@@ -1,0 +1,10 @@
+name: vdbanch_stress1
+description: run vdbench stree1 test case
+loop: 1
+cases:
+  - script: test_vdbench:TestVdbench.test_stress_pre
+    duration: 0
+    loop: 1
+  - script: test_vdbench:TestVdbench.test_stress1
+    duration: 0
+    loop: 1

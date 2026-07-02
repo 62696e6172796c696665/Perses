@@ -1,0 +1,13 @@
+name: fio_test
+description: run fio test for debug testsuite
+loop: 1
+cases:
+  - script: test_fio_windows.py:TestFioWindows.test_seq_write_full_fill
+    duration: 0
+    loop: 1
+  - script: test_fio_windows.py:TestFioWindows.test_seq_write_8h
+    duration: 0
+    loop: 1
+  - script: test_fio_windows.py:TestFioWindows.test_seq_read_8h
+    duration: 0
+    loop: 1

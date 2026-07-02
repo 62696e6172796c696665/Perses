@@ -1,0 +1,37 @@
+name: fio_test
+description: run fio test for debug testsuite
+loop: 1
+cases:
+  - script: test_queue_ab:TestLBA.test_ab_adv_1024kb
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_adv_512kb
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_1024kb_admin
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_512kb_admin
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_rand
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_rand_admin
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_rand_trim
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_rand_trim_admin
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_small_qd
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_qd1
+    duration: 0
+    loop: 1
+  - script: test_queue_ab:TestLBA.test_ab_big_qd
+    duration: 0
+    loop: 1
